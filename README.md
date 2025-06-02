@@ -1,4 +1,5 @@
  🌤 Weather Forecast App
+ ---
 
 A web application that shows the weather forecast for a selected city. The app remembers the last searched city and automatically loads its weather on the next visit. City suggestions are provided via the GeoNames API, and the weather data is retrieved from the Open-Meteo API. The backend is powered by Flask and containerized with Docker.
 
@@ -24,8 +25,10 @@ The app will be available at http://localhost:5000
 
 🧑‍💻 Developer
 Developed solo by NOKIA.
+
 ---
 🌤 Приложение прогноза погоды
+---
 Веб-приложение, которое показывает прогноз погоды для выбранного города. Сохраняет последний введённый город и автоматически показывает его погоду при следующем посещении. Есть подсказки городов через API GeoNames и прогноз через Open-Meteo API. Backend построен на Flask, приложение упаковано в Docker.
 
 ---
