@@ -133,7 +133,6 @@ async function get_temp(name){
     titl.textContent = "Прогноз погоды: " + data.city;
     days_add(data.temperatures);
     
-    // Если запрос был пустой, обновляем поле ввода
     if (name === "" && data.city) {
         cityInput.value = data.city;
     }
