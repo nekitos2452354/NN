@@ -1,0 +1,7 @@
+flask>=2.0.0
+requests
+openmeteo_requests
+pandas
+numpy
+requests_cache
+retry_requests
