@@ -80,10 +80,16 @@ input:hover:not(:focus){
 }
 
 .main{
+    max-width: 95%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    gap: 10px; 
 }
+
 .day_card{
+    max-width: 250px;
+    min-width: 180px;
     margin: 1%;
     border-radius: 10px;
     display:flex;
@@ -104,14 +110,18 @@ input:hover:not(:focus){
 
 
 h3{
+    max-width: 90%;
     margin: 15px auto;
+     background-color: rgba(240, 248, 255, 0);
 }
 p{
     margin: 0 auto;
+    background-color: rgba(240, 248, 255, 0);
 }
 p:last-child{
     margin-bottom: 15px;
 }
+
 
 button{
     margin-left: 15px;
@@ -142,7 +152,8 @@ button:active{
 }
 
 .block{
-    width: 50%;
+    margin: 5px;
+    width: 45%;
     display:flex;
     flex-direction: column;
 }

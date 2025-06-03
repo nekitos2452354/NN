@@ -107,7 +107,7 @@ async function days_add(temp){
         blockL.classList.add("block"); 
         blockR.classList.add("block"); 
 
-        daydata.textContent = loadDays_data[thisDay] + " " + dayName;
+        daydata.innerHTML = loadDays_data[thisDay] + "<br>" + dayName;
         console.log(loadDays[thisDay]);
 
         dayAdd.appendChild(daydata);
